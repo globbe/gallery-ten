@@ -14,6 +14,7 @@ Galleryten::Application.configure do
   # Compress JavaScripts and CSS
   config.assets.compress = true
 
+  #TODO: 120201 - set this back to FALSE and instead make sure css gets properly precompiled!
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = true
 
