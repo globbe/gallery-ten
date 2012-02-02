@@ -1,4 +1,12 @@
 Galleryten::Application.routes.draw do
+  get "static/home"
+
+  get "static/gallery"
+
+  get "static/classroom"
+
+  get "static/equipment"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
