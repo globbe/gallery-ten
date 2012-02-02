@@ -10,4 +10,7 @@ class StaticController < ApplicationController
 
   def equipment
   end
+
+  def staff
+  end
 end

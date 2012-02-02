@@ -2,7 +2,8 @@ Galleryten::Application.routes.draw do
   match 'gallery'   => 'static#gallery'
   match 'classroom' => 'static#classroom'
   match 'equipment' => 'static#equipment'
-
+  match 'staff'     => 'static#staff'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
