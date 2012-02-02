@@ -1,11 +1,7 @@
 Galleryten::Application.routes.draw do
-  get "static/home"
-
-  get "static/gallery"
-
-  get "static/classroom"
-
-  get "static/equipment"
+  match 'gallery'   => 'static#gallery'
+  match 'classroom' => 'static#classroom'
+  match 'equipment' => 'static#equipment'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -57,6 +53,8 @@ Galleryten::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
+
+  root to: 'static#home'
 
   # See how all your routes lay out with "rake routes"
 
