@@ -8,9 +8,15 @@ class StaticController < ApplicationController
   def classroom
   end
 
-  def equipment
+  def staff
   end
 
-  def staff
+  def about
+  end
+
+  def studentwork
+  end
+
+  def contact
   end
 end
