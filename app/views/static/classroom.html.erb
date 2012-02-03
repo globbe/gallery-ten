@@ -1,2 +1,23 @@
-<h1>Static#classroom</h1>
-<p>Find me in app/views/static/classroom.html.erb</p>
+<div class="row">
+    <div class="8 offset1">
+		<p class="pull-right">〒146-0084 東京都大田区南久が原2-31-10</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="span2">
+          <div class="well sidebar-nav">
+	            <ul class="nav nav-list">
+	              	<li class="nav-header">ナビゲーション</li>
+	              	<li><%= link_to "ホーム", root_path %></li>
+	              	<li><%= link_to "ギャラリー天", about_path %></li>
+	              	<li class="active"><%= link_to "陶芸教室", classroom_path %></li>
+	              	<li><%= link_to "生徒作品紹介", studentwork_path %></li>
+	              	<li><%= link_to "スタッフ", staff_path %></li>
+	              	<li><%= link_to "貸しギャラリー", gallery_path %></li>
+	              	<li><%= link_to "お問い合わせ", contact_path</a></li>
+	            </ul>
+	         </div>
+        </div>
+    </div>
+</div>
