@@ -9,9 +9,13 @@
       <%= link_to "ギャラリー天", root_path, class: 'brand' %>
       <div class="nav-collapse">
         <ul class="nav">
-          <!-- <li class="active"><a href="#"></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li> -->
+            <li><%= link_to "ホーム", root_path %></li>
+            <li><%= link_to "ギャラリー天", about_path %></li>
+            <li><%= link_to "陶芸教室", classroom_path %></li>
+            <li><%= link_to "生徒作品紹介", studentwork_path %></li>
+            <li><%= link_to "スタッフ", staff_path %></li>
+            <li><%= link_to "貸しギャラリー", gallery_path %></li>
+            <li><%= link_to "お問い合わせ", contact_path %></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
