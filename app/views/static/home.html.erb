@@ -1,4 +1,5 @@
 <!-- Hero -->
+<!--
 <div class="hero-unit">
 	<table width="100%"><tr><td valign="top">
 
@@ -18,8 +19,19 @@
 		<%= image_tag("topPhoto3.png", alt: "studio", align: "right") %>
 	</td></tr></table>
 </div>
+-->
 
 <!-- blurbs -->
+<div class="row">
+	<div class="span12">
+		<div class="pagination-centered">
+			<%= image_tag("TopBanner.png", alt: "studio") %>
+		</div>
+		<br>
+		<hr>
+	</div>
+</div>
+
 <div class="row">
 	<div class="span4">
 		<h2>ギャラリー天</h2>
@@ -27,14 +39,12 @@
 		<p>のんびりとしたアッ トホームな雰囲気の中、土に触れ、幼いころにどろんこ遊びをして作りだすこと に夢中だったころが、心の中に甦ってきます。</p>
 		<p>忙しい日常から、ほんの少しの間、 童心にかえってみることで、なにか違う日常を見付けられるかもしれません。</p>
 		<p><%= link_to '続きを読む &raquo;'.html_safe, about_path, class: 'btn' %>
-		<!-- <a class="btn" href="#">続きを読む &raquo;</a> --></p>
 	</div>
 	<div class="span4">
 		<h2>貸しギャラリー</h2>
 		<p>貸しギャラリー受け付けています。陶器だけではなく、壁面を使用した絵画などの個展、企画展、共同展などご相談承りますので、お気軽にお問い合わせ下さい。</p>
 		<p>不定休で営業しておりますので、お手数ですが前もってお電話いただけましたら幸いです。</p>
 		<p><%= link_to '続きを読む &raquo;'.html_safe, gallery_path, class: 'btn' %>
-		<!-- <a class="btn" href="#">続きを読む &raquo;</a> --></p>
 	</div>
 	<div class="span4">
 		<h2>陶芸教室</h2>
@@ -43,7 +53,6 @@
 		<p>授業の振り替えもOK。当工房にて窯を二機設置しています。</p>
 		<p>ギャラリーも併設しており、生徒展を定期的に開催しております。また個人の発表の場としても貸し出しております。</p>
 		<p><%= link_to '続きを読む &raquo;'.html_safe, classroom_path, class: 'btn' %>
-		<!-- <a class="btn" href="#">続きを読む &raquo;</a> --></p>
 	</div>
 </div>
 
