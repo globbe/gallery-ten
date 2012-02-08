@@ -5,8 +5,8 @@
     <title>gallary ten</title>
     <meta name="description" content="">
     <meta name="author" content="">
-    
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 		<%= render 'layouts/stylesheets' %>
 
 		<%= javascript_include_tag "application" %>
@@ -20,7 +20,14 @@
 		<div class="container">
 
 			<div class="row">
-			    <div class="span8 offset4">
+				<div class="span4">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-text="Gallery Ten Tokyo" data-via="henjo">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+					</script>
+					<!-- google +1 -->
+					<g:plusone size="medium"></g:plusone>
+				</div>
+			    <div class="span8">
 					<p class="pull-right">03-5482-5245 | 〒146-0084 東京都大田区南久が原2-31-10</p>
 				</div>
 			</div>
@@ -51,5 +58,17 @@
 				</div>
 			</footer>
 		</div>
+
+		<!-- google +1 render code -->
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'ja'};
+
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+
 	</body>
 </html>
