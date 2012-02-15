@@ -116,6 +116,14 @@ a:hover {
   margin-left: -20px;
   *zoom: 1;
 }
+
+.filled {
+  background-color: #ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
 .row:before, .row:after {
   display: table;
   content: "";
